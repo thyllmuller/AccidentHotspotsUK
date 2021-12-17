@@ -2,12 +2,19 @@ name: voila-gallery-country-indicators
 channels:
 - conda-forge
 dependencies:
-- ipywidgets
-- scipy
-- numpy
-- jupyterlab>=3.1
-- voila>=0.2.1
-- folium
-- geopy
-- sklearn
-- timeit
+  - conda
+  - python=3.9
+  - menuinst
+  - console_shortcut
+  - powershell_shortcut
+  - conda-env
+  - conda-build
+  - conda-verify
+  - _ipyw_jlab_nb_ext_conf
+  - anaconda==2021.11=py39_0
+  - anaconda-navigator
+  - navigator-updater
+  - jupyterlab_widgets
+  - folium
+  - geopy
+  - scikit-learn
