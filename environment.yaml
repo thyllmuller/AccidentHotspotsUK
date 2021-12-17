@@ -9,3 +9,5 @@ dependencies:
 - voila>=0.2.1
 - folium
 - geopy
+- sklearn
+- timeit
